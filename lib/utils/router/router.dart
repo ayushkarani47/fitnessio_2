@@ -4,7 +4,6 @@ import 'package:Fitnessio/presentation/auth/pages/auth_page.dart';
 import 'package:Fitnessio/presentation/auth/pages/forgot_password_page.dart';
 import 'package:Fitnessio/presentation/boarding/pages/boarding_page.dart';
 import 'package:Fitnessio/presentation/consumption/pages/drink_page.dart';
-import 'package:Fitnessio/presentation/consumption/pages/new_meal_page.dart';
 import 'package:Fitnessio/presentation/main/pages/main_page.dart';
 import 'package:Fitnessio/presentation/notifications/pages/notifications_page.dart';
 import 'package:Fitnessio/presentation/profile/pages/change_measurements_page.dart';

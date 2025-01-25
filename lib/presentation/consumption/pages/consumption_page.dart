@@ -1,5 +1,4 @@
 import 'package:Fitnessio/model/meal_model.dart';
-import 'package:Fitnessio/presentation/consumption/pages/prevMeal_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:liquid_pull_to_refresh/liquid_pull_to_refresh.dart';
@@ -8,7 +7,6 @@ import 'package:Fitnessio/presentation/consumption/providers/consumption_provide
 import 'package:Fitnessio/presentation/consumption/widgets/meal_widget.dart';
 import 'package:Fitnessio/utils/managers/color_manager.dart';
 import 'package:Fitnessio/utils/managers/value_manager.dart';
-import 'package:Fitnessio/utils/router/router.dart';
 
 class ConsumptionPage extends StatefulWidget {
   const ConsumptionPage({super.key});

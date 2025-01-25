@@ -12,9 +12,12 @@ class SliderBoardingWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+     final height = MediaQuery.of(context).size.height;
     return Padding(
+
       padding: const EdgeInsets.all(PaddingManager.p28),
       child: SlideAction(
+       // height: height*0.052,
         outerColor: ColorManager.black87,
         innerColor: ColorManager.limeGreen,
         sliderButtonIcon: const Icon(Icons.double_arrow_sharp),

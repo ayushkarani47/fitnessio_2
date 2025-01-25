@@ -1,4 +1,5 @@
 import 'dart:async'; // For Future.delayed
+import 'package:Fitnessio/utils/managers/color_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:Fitnessio/roles_page.dart';
@@ -33,6 +34,7 @@ class AuthPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: ColorManager.darkGrey,
       body: MultiProvider(
         providers: [
           ChangeNotifierProvider<AuthProvider>(
@@ -49,7 +51,10 @@ class AuthPage extends StatelessWidget {
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   return const Center(
-                    child: CircularProgressIndicator(),
+                    child: CircularProgressIndicator(
+                      //backgroundColor: ColorManager.darkGrey,
+                      color: ColorManager.limeGreen,
+                    ),
                   ); // Show loading spinner while waiting
                 } else if (snapshot.hasData) {
                   return snapshot.data!;

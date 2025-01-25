@@ -337,7 +337,7 @@ class ConsumptionProvider with ChangeNotifier {
   try {
     final mealsSnapshot = await FirebaseFirestore.instance
         .collection('meals')
-        .doc('xmVIESF8RGQAnhsAYtCJc23Hhgg2')
+        .doc(userId)
         .collection('mealData')
         .orderBy('dateTime')
         .get();

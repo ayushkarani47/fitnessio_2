@@ -88,7 +88,7 @@ class _BoardingPageState extends State<BoardingPage> {
           Align(
             alignment: Alignment.bottomCenter,
             child: Container(
-              height: SizeManager.s400.h,
+              height: SizeManager.s420.h,
               width: double.infinity,
               decoration: BoxDecoration(
                   color: ColorManager.black87,
@@ -101,6 +101,7 @@ class _BoardingPageState extends State<BoardingPage> {
                     ),
                   )),
               child: Column(
+                mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [

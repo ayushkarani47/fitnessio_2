@@ -1,21 +1,11 @@
 import 'package:Fitnessio/presentation/auth/pages/add_data_page.dart';
 import 'package:Fitnessio/presentation/main/pages/main_page.dart';
-import 'package:Fitnessio/trainer/presentation/trainer_main_page.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:Fitnessio/utils/managers/color_manager.dart';
-import 'package:Fitnessio/utils/managers/string_manager.dart';
-import 'package:Fitnessio/utils/managers/style_manager.dart';
-import 'package:Fitnessio/utils/managers/value_manager.dart';
 
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:provider/provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthProvider with ChangeNotifier {
   User? _user;

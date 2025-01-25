@@ -4,7 +4,6 @@ import 'package:Fitnessio/presentation/workouts/widgets/new_exercise_button.dart
 import 'package:Fitnessio/trainer/presentation/trainer_new_exercise_page.dart';
 import 'package:Fitnessio/utils/managers/color_manager.dart';
 import 'package:Fitnessio/utils/managers/value_manager.dart';
-import 'package:Fitnessio/utils/router/router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:liquid_pull_to_refresh/liquid_pull_to_refresh.dart';
